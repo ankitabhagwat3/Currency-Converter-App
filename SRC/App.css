@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.input {
+position: relative;
+width: 361px;
+height: 62px;
+margin: 30px;
+
+/* #FFFFFF */
+
+background: #FFFFFF;
+border: 1px solid #BFBFBF;
+box-sizing: border-box;
+border-radius: 6px;
+display: block;
+}
+
+select {
+  display: block;
+  margin-left: .5rem;
+}
+
+
+h1.header {
+
+  position: absolute;
+  width: 250px;
+  height: 33px;
+  left: 235px;
+  top: 145px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+  
+  
+  /* Gray 1 */
+  
+  color: #333333;
+}
+
+.currencyBox1 {
+  position: absolute;
+  width: 436px;
+  height: 293px;
+  left: 235px;
+  top: 270px;
+  background: #F0F1F4;
+  border-radius: 10px;
+ 
+}
+
+
+
+.currencyBox2{
+position: absolute;
+width: 436px;
+height: 293px;
+left: 820px;
+top: 270px;
+
+background: #F0F1F4;
+border-radius: 10px;
+}
+
+.currencyBox1 currency1{
+position: absolute;
+width: 71px;
+height: 21px;
+left: 350px;
+top: 300px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* #3A3B3F */
+
+color: #3A3B3F;
+}
+
+.headerBar {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1600px;
+  height: 62px;
+  left: 0px;
+  top: 0px;
+  
+  /* #2B439C */
+  
+  background: #2B439C;
+
+}
+#something ER1{
+  margin-bottom:580px;
+  /* #FFFFFF */
+  
+  color: #FFFFFF;
+}
+
+.currencyPara{
+position: absolute;
+width: 445px;
+height: 21px;
+left: 240px;
+top: 187px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+.RateHead{
+position: absolute;
+width: 406px;
+height: 33px;
+left: 235px;
+top: 145px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+.headerLink {position: relative !important; display:  inline-block; width:  328px; text-align: center; color: #fff; font-family: 'Roboto'; max-height: 62px; box-sizing: border-box; padding: 20px 0px; cursor: pointer;}
+.headerLink.active {background: #15255E;}
+.headerLink a, .headerLink a:hover, .headerLink a:active, .headerLink a:link {color:  inherit; text-decoration: none;}
+
+
+.table{
+  position: absolute;
+  width: 921px;
+  height: 781px;
+  left: 235px;
+  top: 216px;
+  border: #15255E;
+}
+
+.RateTable {
+
+  position: absolute;
+  width: 921px;
+  height: 781px;
+  left: 235px;
+  top: 216px;
+  
+  /* #FFFFFF */
+  
+  background: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-align: left;
+border-collapse: collapse;
+border-spacing: 0px;
+}
+
+.RateTable th {background: #F0F1F4; height: 60px; padding-left: 27px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  /* Gray 1 */
+  
+  color: #333333;
+}
+.RateTable td {padding-left: 27px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 240%;
+  /* or 43px */
+  
+  
+  /* Gray 1 */
+  
+  color: #333333;
+  border-spacing: 0px;
+}
