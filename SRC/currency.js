@@ -1,81 +1,113 @@
 const currency = [
 
-    {
-            
-             name: "US Dollar",
-    
-             code: "USD",
-             
+    {   
+        name: "US Dollar",
+        code: "USD",
     },
     {
-             
-             name: "Canadian Dollar",
-             
-             code: "CAD",
-    
+        name: "Canadian Dollar",
+        code: "CAD",
     },
     {
-           
-             name: "Euro",
-             
-             code: "EUR",
-             
+        name: "Euro",
+        code: "EUR",
     },
     {
-             
-             name: "United Arab Emirates Dirham",
-        
-             code: "AED",
-        
+        name: "Hong Kong Dollar",
+        code: "HKD",
     },
     {
-            name: "Afghan Afghani",
-         
-             code: "AFN",
-            
+        name: "Icelandic Krona",
+        code: "ISK",
     },
     {
-          
-             name: "Albanian Lek",
-          
-             code: "ALL",
-        
+        name: "Philippine Peso",
+        code: "PHP",
     },
     {
-             
-             name: "Armenian Dram",
-           
-             code: "AMD",
-      
+        name: "Danish Krone",
+        code: "DKK",
     },
     {
-           
-             name: "Argentine Peso",
-             
-             code: "ARS",
-          
+        name: "Forint",
+        code: "HUF",
     },
     {
-            
-             name: "Australian Dollar",
-            
-             code: "AUD",
-           
+        name: "Czech Koruna",
+        code: "CZK",
     },
     {
-             "symbol": "man.",
-             name: "Azerbaijani Manat",
-          
-
-             code: "AZN",
-       
+        name: "Pound Sterling",
+        code: "GBP",
     },
     {
-
-             name: "Bosnia-Herzegovina Convertible Mark",
-             code: "BAM",
-
+        name: "Swedish Krona",
+        code: "SEK",
     },
+    {
+        name: "Rupiah",
+        code: "IDR",
+    },
+    {
+        name: "Indian Rupee",
+        code: "INR",
+    },
+    {
+        name: "Brazilian Real",
+        code: "BRL",
+    },
+    {
+        name: "Russian Ruble",
+        code: "RUB",
+    },
+    {
+        name: "Kuna",
+        code: "HRK",
+    },
+    {
+        name: "yen",
+        code: "JPY",
+    },
+    {
+        name: "Baht",
+        code: "THB",
+    },
+    {
+        name: "Swiss Franc",
+        code: "CHF",
+    },
+    {
+        name: "Malaysian Ringgit",
+        code: "MYR",
+    },
+    {
+        name: "Yuan Renminbi",
+        code: "CNY",
+    },
+    {
+        name: "Norwegian Krone",
+        code: "NOK",
+    },
+    {
+        name: "Singapore Dollar",
+        code: "SGD",
+    },
+    {
+        name: "Australian Dollar",
+        code: "AUD",
+    },
+    {
+        name: "New Israeli Sheqel",
+        code: "ILS",
+    },
+    {
+        name: "Won",
+        code: "KRW",
+    },
+    {
+        name: "Zloty",
+        code: "PLN",
+    }
 ]
 
 export default currency;

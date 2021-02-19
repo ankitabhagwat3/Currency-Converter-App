@@ -151,22 +151,23 @@ function Home() {
   );
 }
 
+let conversions = [];
+async function request() {
+  const response = await fetch(BASE_URL+"?base=USD");
+  const json = await response.json();
+  console.log(json);
+  conversions = json.rates;
+}
+
 function DisplayAllRate() {
 
-  let conversions = [];
+  request();
 
-  fetch(BASE_URL)
-      .then(res => res.json())
-      .then(data => {
-        console.log(data.rates);
-        conversions.push(data.rates);
-      });
-
-
+  console.log(conversions.EUR);
   const result = currency.map(item => (<tr key={item.name}>
     <td>{item.code}</td>
     <td>{item.name}</td>
-    <td>{conversions[item.name]}</td>
+    <td>{conversions[item.code]}</td>
   </tr>))
   return (
     <div class="ratesPage">

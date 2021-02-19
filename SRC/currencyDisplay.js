@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Currency from './currency'
-import corrency from './Greet'
+import currency from './Greet'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -46,7 +46,7 @@ function Home() {
 
 function DisplayAllRate() {
 
-  const result = corrency.map(item => (<tr key={item.name}>
+  const result = currency.map(item => (<tr key={item.name}>
     <td>{item.code}</td>
     <td>{item.name}</td>
     <td />
